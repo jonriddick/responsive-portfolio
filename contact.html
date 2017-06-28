@@ -1,75 +1,72 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en-us">
+
 <head>
-	<meta charset="utf-8">
-	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
-	<link rel="stylesheet" type="text/css" href="">
-	<title>Jon's Basic Portfolio | Contact Page</title>
+  <meta charset="UTF-8">
+  <title>Jon's Portfolio</title>
+  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 
 <body>
-	<!-- This is the menu -->
-	<header>
-		<nav>
-			<section class="name">
-				Jon Riddick
-			</section>
 
-			<section class="menu">
-				<a href="https://jonriddick.github.io/index">About</a> | 
-				<a href="https://jonriddick.github.io/portfolio">Portfolio</a> |
-				<a href="https://jonriddick.github.io/contact">Contact</a>
-			</section>
-		</nav>
-	</header>
+  <header id="masthead">
+    <div id="fuck" class="container">
+      <a href="index.html" id="logo">Jon Riddick</a>
+      <nav>
+        <a href="index.html">About</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
 
-<div class="grey"></div>
-	
-	<section class="bg">
-	<section class="container clearfix">
+  <div id="main-container" class="container">
+    <section class="main-section">
+      <h1>Contact</h1>
 
-		<!-- About me section -->
-		<section class="main">
-			<h2>Contact</h2>
-			<hr>
-				<form>
-					<label for="fname">Name</label><br>
-					<input type="text" id="fname" name="fname" placeholder="Wade Wilson">
-					<br><br>
-					<label for="email">Email</label><br>
-					<input type="text" id="email" name="email" placeholder="Deadpool@gmail.com">
-					<br><br>
-					<label for="message">Message</label><br>
-					<textarea id="message" placeholder="Maximum effort!"></textarea>
+      <form id="contact-form">
+        <ul>
+          <li>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="John Smith" required="required">
+          </li>
+          <li>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="example@gmail.com" required="required">
+          </li>
+          <li>
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required="required"></textarea>
+          </li>
+        </ul>
+        <input type="submit">
+      </form>
 
-				</form>
-			
-		</section>
+    </section>
 
-		<!-- Connect with me section -->
-			<section class="side">
-				<h2>Connect With Me</h2>
-				<hr>
-				<a href="https://github.com/jonriddick" target="_blank"><img class="social" src="assets/images/github.png" alt="GitHub"></a>
-				<a href="https://www.linkedin.com/in/jonriddick/" target="_blank"><img class="social" src="assets/images/linkedin.png" alt="LinkedIn"></a>
-				<a href="https://stackoverflow.com/users/8039370/jon-riddick" target="_blank"><img class="social" src="assets/images/stack.png" alt="StackOverFlow"></a>
-				<a href="https://www.facebook.com/profile.php?id=100014724529008" target="_blank"><img class="social" src="assets/images/facebook.png" alt="Facebook"></a><br>
-				<a href="https://twitter.com/JonRiddick/" target="_blank"><img class="social" src="assets/images/twitter.png" alt="Twitter"></a>
-				<a href="https://www.instagram.com/dallasthehappypitbull/" target="_blank"><img class="social" src="assets/images/instagram.png" alt="Instagram"></a>
-				<a href="" target="_blank"><img class="social" src="assets/images/email.png" alt="Email"></a>
-				<a href="https://www.youtube.com/watch?v=Kp7eSUU9oy8" target="_blank"><img class="social" src="assets/images/music.png" alt="Music"></a><br>
-				<a href="https://giphy.com/search/deadpool" target="_blank"><img class="social" src="assets/images/deadpool.jpg" alt="Deadpool"></a>
-			</section>
-				
-		<img id="dp" src="assets/images/dpbg.jpg" alt="Deadpool">
-	</section>
-	</section>
+    <section class="sidebar">
+      <div id="connect">
+        <h2>Connect with Me</h2>
 
-	<div class="green"></div>
+        <a href="https://github.com/jonriddick" target="_blank"><img class="social" src="assets/images/github.png" alt="GitHub"></a>
+        <a href="https://www.linkedin.com/in/jonriddick/" target="_blank"><img class="social" src="assets/images/linkedin.png" alt="LinkedIn"></a>
+        <a href="https://stackoverflow.com/users/8039370/jon-riddick" target="_blank"><img class="social" src="assets/images/stack.png" alt="StackOverFlow"></a>
+        <a href="https://www.facebook.com/profile.php?id=100014724529008" target="_blank"><img class="social" src="assets/images/facebook.png" alt="Facebook"></a>
+        <a href="https://twitter.com/JonRiddick/" target="_blank"><img class="social" src="assets/images/twitter.png" alt="Twitter"></a>
+        <a href="https://www.instagram.com/dallasthehappypitbull/" target="_blank"><img class="social" src="assets/images/instagram.png" alt="Instagram"></a>
+        <a href="" target="_blank"><img class="social" src="assets/images/email.png" alt="Email"></a>
+        <a href="https://www.youtube.com/watch?v=Kp7eSUU9oy8" target="_blank"><img class="social" src="assets/images/music.png" alt="Music"></a>
+        <a href="https://giphy.com/search/deadpool" target="_blank"><img class="social" src="assets/images/deadpool.jpg" alt="Deadpool"></a>
+      </div>
+    </section>
+  </div>
 
-	<footer>
-		© Copyright 2017 Jon Riddick
-	</footer>
-
+  <footer>
+    <div class="container">
+      Copyright &copy; 2017 Jon Riddick
+    </div>
+  </footer>
 </body>
+
 </html>
